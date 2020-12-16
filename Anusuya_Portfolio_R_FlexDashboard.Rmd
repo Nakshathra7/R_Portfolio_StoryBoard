@@ -1,0 +1,74 @@
+---
+title: "Portfolio-FlexDashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(knitr) # to create nice documents in R
+library(tidyverse) # loads ggplot2, dplyr, tidyr, readr, purr, tibble
+library(forcats) # working with categorical variables
+```
+
+Row {data-width=700}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+knitr::include_graphics("FoodScrap.png")
+```
+
+Row {data-width=700}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+knitr::include_graphics("Cereal_Relation1.png")
+```
+
+### Chart B
+
+```{r}
+knitr::include_graphics("Anusuya_Tableau_Whiskey_Visuals.png")
+```
+
+### Chart C
+
+```{r}
+knitr::include_graphics("Cereal_Relation2.png")
+```
+
+Row {data-width=700}
+-----------------------------------------------------------------------
+
+### Chart E
+
+```{r}
+knitr::include_graphics("Baseball1.png")
+```
+
+Row {data-width=600}
+-----------------------------------------------------------------------
+
+### Chart H
+
+```{r}
+knitr::include_graphics("Homicide1.png")
+```
+
+### Chart J
+
+```{r}
+knitr::include_graphics("Baseball3.png")
+```
+
+### Chart G
+
+```{r}
+knitr::include_graphics("Homicide3.png")
+```
